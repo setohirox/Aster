@@ -1,6 +1,8 @@
+🌼 会社サイトのヘッダー
 div#header.container:
   h1.sitetitle("株式会社Example")
 
+  🌼 グローバルナビ
   nav.menu:
     ul:
       li("ホーム")
@@ -8,11 +10,13 @@ div#header.container:
       li("会社概要")
       li("お問い合わせ")
 
+🌼 ヒーローセクション
 section#hero.heroarea:
   div.herocontent:
     h2("未来をつくるテクノロジー")
     p("私たちはテクノロジーで社会を前進させます。")
 
+🌼 サービス紹介カード
 section#services.container:
   h2.sectiontitle("事業内容")
   div.cards:
@@ -26,5 +30,6 @@ section#services.container:
       h3("コンサルティング")
       p("IT戦略の立案と実行をサポートします。")
 
+🌼 フッター
 footer#footer.container:
   p("© 2025 Example Inc.")
