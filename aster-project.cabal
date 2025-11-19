@@ -2,14 +2,14 @@ cabal-version:       2.2
 
 name:                aster-project
 version:             0.1.0.0
--- synopsis:
--- description:
-homepage:            https://github.com/githubuser/aster-project#readme
+-- synopsis:         Aster: A simple HTML generator language
+-- description:      A small domain-specific language (DSL) for generating HTML. 
+homepage:            https://github.com/setohirox/Aster
 license:             BSD-3-Clause
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2025 Author name here
+author:              setohirox
+maintainer:          hiro.premium@icloud.com
+copyright:           2025 setohirox
 category:            Web
 build-type:          Simple
 extra-source-files:  README.md
@@ -39,4 +39,4 @@ executable aster-project
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/aster-project
+  location: https://github.com/setohirox/Aster
