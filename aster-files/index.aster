@@ -1,0 +1,30 @@
+div#header.container:
+  h1.sitetitle("株式会社Example")
+
+  nav.menu:
+    ul:
+      li("ホーム")
+      li("事業内容")
+      li("会社概要")
+      li("お問い合わせ")
+
+section#hero.heroarea:
+  div.herocontent:
+    h2("未来をつくるテクノロジー")
+    p("私たちはテクノロジーで社会を前進させます。")
+
+section#services.container:
+  h2.sectiontitle("事業内容")
+  div.cards:
+    div.card:
+      h3("Web制作")
+      p("高品質なウェブサイトを制作します。")
+    div.card:
+      h3("システム開発")
+      p("要件定義から保守まで一貫して対応します。")
+    div.card:
+      h3("コンサルティング")
+      p("IT戦略の立案と実行をサポートします。")
+
+footer#footer.container:
+  p("© 2025 Example Inc.")
